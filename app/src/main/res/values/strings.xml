@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Status Master</string>
+    <string name="banner_addID">1546544705528643_1546545725528541</string>
+    <string name="interestial_addID">1546544705528643_1546547358861711</string>
+    <string name="permission_denied_contacts">permission_denied_contacts</string>
+
+
+    <!--Test Banner: IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID-->
+    <!--Test Inter: CAROUSEL_IMG_SQUARE_APP_INSTALL#YOUR_PLACEMENT_ID-->
+
+    <!-- banner id: 1546544705528643_1546545725528541-->
+    <!-- Inter: 1546544705528643_1546547358861711-->
+
+
+</resources>

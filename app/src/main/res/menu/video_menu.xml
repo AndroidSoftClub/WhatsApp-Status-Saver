@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/sharevideomenuID"
+        android:icon="@drawable/shareimage"
+        app:showAsAction="always"
+        android:title="Share" />
+    <item
+        android:id="@+id/downloadedvideomanuID"
+        android:icon="@drawable/save_black"
+        app:showAsAction="always"
+        android:title="Downloaded" />
+
+    <item
+        android:id="@+id/playvideo"
+        android:icon="@drawable/play_black"
+        app:showAsAction="always"
+        android:title="Downloaded" />
+</menu>

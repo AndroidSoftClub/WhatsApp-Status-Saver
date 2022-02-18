@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_margin="8dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="?selectableItemBackground"
+                android:adjustViewBounds="true"
+                android:id="@+id/rvsaveclickID"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rvsavedeletedId"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/share_round"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/deletimage"
+                    android:padding="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rvsharedownloadId"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:foregroundGravity="center"
+                android:layout_margin="3dp"
+                android:background="@drawable/share_round"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/share_white"
+                    android:padding="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/rvsavePlayId"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/ic_play_arrow_black_24dp"
+                android:layout_centerInParent="true" />
+
+
+
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/framlaID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#9C686666"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/selected"/>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:shadowColor="#000"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="WhatsApp Status \nDownloader"
+        android:textColor="#6200EA"/>
+    <ImageView
+        android:layout_above="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvID"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
